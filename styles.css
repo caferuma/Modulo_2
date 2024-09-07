@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    padding: 0;
+}
+.info{
+    width: 235px;
+    background-color: #121212;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.personal_info{
+    margin-bottom: 30px;
+}
+.personal_info .profile_picture{
+    display:block;
+    margin: auto;
+              
+}
+.personal_info span{
+    font-size: 20px;
+    color: #fff;
+}
+.personal_info p{
+    font-size: 16px;
+    color: #8a8a8a;
+    margin-top: 5px;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    margin: 15px;
+    text-align: center;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+nav ul li :hover{
+    color: #dc3545;
+}
+
+.seleccionado{
+    color: #dc3545;
+}
+.portada{
+    width: 100%;
+    background: url(./images/pexels-cottonbro-4835429.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    
+}
+.portada h1{
+    font-size: 50px;
+    color: #fff;
+    margin-top: 10px;
+}
+.portada h1 .rojo{
+    color: #dc3545;
+}
+.portada p{
+    font-size: 25px;
+    color: #fff;
+}
+.portada h2{
+    font-size: 25;
+    margin-top: 20px;
+    text-decoration: double;
+    color: #fff;
+}
+.icons{
+    text-align: center;
+
+}
+#courses{
+    margin-top: 25px;
+    display: inline-flexbox;
+    padding: 3px;
+    
+    
+       
+}
+#courses p{
+    font-size: 14px !important;
+       
+    
+}
+
